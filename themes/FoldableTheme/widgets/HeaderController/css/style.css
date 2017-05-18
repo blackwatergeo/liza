@@ -60,10 +60,14 @@
   border: none;
 }
 .jimu-widget-header-controller .icon-node:hover{
+     /*   background-image: url(images/Highlight.png);
+     background-size: 100% 100%;*/
+    
   opacity: 1;
 }
 .jimu-widget-header-controller .icon-node.jimu-state-selected{
   background-image: url(images/Highlight.png);
+      background-size: 100% 100%;
   opacity: 1;
   border: none;
   /*border-top: 2px solid #8491a1;*/
