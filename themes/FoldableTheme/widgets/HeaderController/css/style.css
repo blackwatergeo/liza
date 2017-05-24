@@ -53,8 +53,8 @@
   border-right: 1px solid #323e4f;
 }
 .jimu-widget-header-controller .icon-node img{
-  height: 24px;
-  width: 24px;
+  height: 32px;
+  width: 32px;
 }
 .jimu-widget-header-controller .icon-node:first-child{
   border: none;
