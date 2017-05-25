@@ -36,9 +36,9 @@ define(['dojo/_base/declare',
 
       //options:
       color: null, //dojo.Color or hex string
-      showHex: true,
-      showHsv: true,
-      showRgb: true,
+      showHex: false,
+      showHsv: false,
+      showRgb: false,
       ensureMode: false,
       showLabel: false,
 
