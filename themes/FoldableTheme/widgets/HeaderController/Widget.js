@@ -762,7 +762,7 @@ define([
       _createIconNode: function(iconConfig) {
         var node, iconUrl;
         if (iconConfig.label === this.nls.more) {
-          iconUrl = this.folderUrl + 'images/more_icon.png';
+          iconUrl = this.folderUrl + 'images/more_icon.svg';
         } else {
           iconUrl = iconConfig.icon;
         }
