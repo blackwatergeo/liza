@@ -341,9 +341,10 @@ define([
 
       _setElementsSize: function() {
         html.setStyle(this.logoNode, {
-          height: '30px',
-          // minWidth: '30px',
-          marginTop: ((this.height - 30) / 2) + 'px'
+          height: '50px',
+          //minWidth: '30px',
+            marginTop: '6px'
+         // marginTop: ((this.height - 30) / 2) + 'px'
         });
 
         html.setStyle(this.titleNode, {
@@ -761,7 +762,7 @@ define([
       _createIconNode: function(iconConfig) {
         var node, iconUrl;
         if (iconConfig.label === this.nls.more) {
-          iconUrl = this.folderUrl + 'images/more_icon.png';
+          iconUrl = this.folderUrl + 'images/more_icon.svg';
         } else {
           iconUrl = iconConfig.icon;
         }

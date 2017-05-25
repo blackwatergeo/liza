@@ -53,20 +53,24 @@
   border-right: 1px solid #323e4f;
 }
 .jimu-widget-header-controller .icon-node img{
-  height: 24px;
-  width: 24px;
+  height: 32px;
+  width: 32px;
 }
 .jimu-widget-header-controller .icon-node:first-child{
   border: none;
 }
 .jimu-widget-header-controller .icon-node:hover{
+     /*   background-image: url(images/Highlight.png);
+     background-size: 100% 100%;*/
+    
   opacity: 1;
 }
 .jimu-widget-header-controller .icon-node.jimu-state-selected{
- background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(images/Highlight.png);
+      background-size: 100% 100%;
   opacity: 1;
   border: none;
-  border-top: 2px solid #8491a1;
+  /*border-top: 2px solid #8491a1;*/
 }
 
 .jimu-widget-header-controller .drop-triangle{
